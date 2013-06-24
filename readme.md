@@ -22,4 +22,4 @@ print (memc:get ("abc"))
 
 ## Known problems
 
-- multi_get, multi_set will not work
+- multi_get, multi_set will not work with consistent hashing (correct me if I'm wrong)

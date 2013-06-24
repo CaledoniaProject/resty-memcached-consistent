@@ -1,8 +1,9 @@
 ## Consistent Hashing LUA memcache-client
+Based on openresty memcached client
 
 ## Usage
 
-<code>
+<pre>
 local memcached = require "resty.memcachedp"
 
 -- initiate a new instance
@@ -15,4 +16,4 @@ memc:set ("abc", 123)
 
 -- retrieving
 print (memc:get ("abc"))
-</code>
+</pre>
